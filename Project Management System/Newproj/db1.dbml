@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="data" Class="db1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\data.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="Newproj.Properties.Settings" SettingsPropertyName="dataConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Project" Member="Projects">
+    <Type Name="Project">
+      <Column Name="PNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SupNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Student_Project" Member="Student" ThisKey="StNo" OtherKey="StNo" Type="Student" IsForeignKey="true" />
+      <Association Name="Supervisor_Project" Member="Supervisor" ThisKey="SupNo" OtherKey="SupNo" Type="Supervisor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Student" Member="Students">
+    <Type Name="Student">
+      <Column Name="StNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Dep" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Student_Project" Member="Projects" ThisKey="StNo" OtherKey="StNo" Type="Project" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Supervisor" Member="Supervisors">
+    <Type Name="Supervisor">
+      <Column Name="SupNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Salary" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Supervisor_Project" Member="Projects" ThisKey="SupNo" OtherKey="SupNo" Type="Project" />
+    </Type>
+  </Table>
+</Database>

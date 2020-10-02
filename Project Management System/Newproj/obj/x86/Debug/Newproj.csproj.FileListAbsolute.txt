@@ -1,0 +1,17 @@
+C:\Users\Youmna\Desktop\Newproj\Newproj\bin\Debug\Newproj.exe.config
+C:\Users\Youmna\Desktop\Newproj\Newproj\bin\Debug\data.mdf
+C:\Users\Youmna\Desktop\Newproj\Newproj\bin\Debug\data_log.ldf
+C:\Users\Youmna\Desktop\Newproj\Newproj\obj\x86\Debug\Newproj.csprojResolveAssemblyReference.cache
+C:\Users\Youmna\Desktop\Newproj\Newproj\obj\x86\Debug\Newproj.Main.resources
+C:\Users\Youmna\Desktop\Newproj\Newproj\obj\x86\Debug\Newproj.projectf.resources
+C:\Users\Youmna\Desktop\Newproj\Newproj\obj\x86\Debug\Newproj.projectq.resources
+C:\Users\Youmna\Desktop\Newproj\Newproj\obj\x86\Debug\Newproj.Supervisorf.resources
+C:\Users\Youmna\Desktop\Newproj\Newproj\obj\x86\Debug\Newproj.Usf.resources
+C:\Users\Youmna\Desktop\Newproj\Newproj\obj\x86\Debug\Newproj.Studentf.resources
+C:\Users\Youmna\Desktop\Newproj\Newproj\obj\x86\Debug\Newproj.Properties.Resources.resources
+C:\Users\Youmna\Desktop\Newproj\Newproj\obj\x86\Debug\Newproj.csproj.GenerateResource.Cache
+C:\Users\Youmna\Desktop\Newproj\Newproj\obj\x86\Debug\Newproj.exe
+C:\Users\Youmna\Desktop\Newproj\Newproj\obj\x86\Debug\Newproj.pdb
+C:\Users\Youmna\Desktop\Newproj\Newproj\bin\Debug\Newproj.exe
+C:\Users\Youmna\Desktop\Newproj\Newproj\bin\Debug\Newproj.pdb
+C:\Users\Youmna\Desktop\Newproj\Newproj\obj\x86\Debug\Newproj.DBf.resources
